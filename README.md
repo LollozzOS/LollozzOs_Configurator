@@ -242,7 +242,8 @@ LollozzOS Configurator was also created thanks to the integration of several ope
 
 ---
 
-##
+## 🛠️ Instructions
+- Download the .exe from the "Releases" section, run it, and follow the on-screen instructions.
 
 ---
 
