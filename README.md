@@ -248,7 +248,11 @@ Metodo 1: Installazione Automatica via PowerShell (Consigliato)
 1. Apri PowerShell come Amministratore (Fai tasto destro sul pulsante Start -> seleziona Terminale (Amministratore) oppure Windows PowerShell (Amministratore)).
 2. Copia e incolla il seguente comando in riga unica e premi Invio:
 
-$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.1"; $zip = "$env:TEMP\LollozzOS.zip"; irm "https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip" -OutFile $zip; Expand-Archive -Path $zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse | Select-Object -First 1; if ($readme) { Start-Process $readme.FullName }; $exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse | Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
+
+```powershell
+$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.1"; $zip = "$env:TEMP\LollozzOS.zip"; irm "[https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip](https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip)" -OutFile $zip; Expand-Archive -Path$zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse \vert{} Select-Object -First 1; if ($readme) { Start-Process $readme.FullName };$exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse \vert{} Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
+
+```
 
 Questo script scarica automaticamente l'ultima versione, estrae i file nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1, apre il file README.txt e avvia LollozzOS_Configurator_v.3.1.exe con i privilegi da Amministratore.
 
