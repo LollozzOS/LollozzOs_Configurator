@@ -1,3 +1,11 @@
+<img width="3836" height="2160" alt="LollozzOsWallpaper" src="https://github.com/user-attachments/assets/95617af1-f553-4a52-8db2-647c3977d10a" />
+
+
+
+
+
+
+
 # LollozzOS Configurator
 
 Welcome, I created this utility that integrates every possible optimization for Windows 10/11. The utility was created by me (Lollozz), a computer and software enthusiast in general, and I've tested everything on my PC.
