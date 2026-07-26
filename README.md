@@ -242,8 +242,23 @@ LollozzOS Configurator was also created thanks to the integration of several ope
 
 ---
 
-## 🛠️ Instructions
-- Download the .exe from the "Releases" section, run it, and follow the on-screen instructions.
+📦 Istruzioni di Installazione
+
+Metodo 1: Installazione Automatica via PowerShell (Consigliato)
+1. Apri PowerShell come Amministratore (Fai tasto destro sul pulsante Start -> seleziona Terminale (Amministratore) oppure Windows PowerShell (Amministratore)).
+2. Copia e incolla il seguente comando in riga unica e premi Invio:
+
+$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.1"; $zip = "$env:TEMP\LollozzOS.zip"; irm "https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip" -OutFile $zip; Expand-Archive -Path $zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse | Select-Object -First 1; if ($readme) { Start-Process $readme.FullName }; $exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse | Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
+
+Questo script scarica automaticamente l'ultima versione, estrae i file nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1, apre il file README.txt e avvia LollozzOS_Configurator_v.3.1.exe con i privilegi da Amministratore.
+
+--------------------------------------------------------------------------------
+
+Metodo 2: Installazione Manuale
+1. Scarica l'archivio LollozzOS_Configurator_v.3.1.zip dalla sezione Assets in basso.
+2. Estrai il contenuto dello ZIP nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1.
+3. Apri la cartella, fai tasto destro su LollozzOS_Configurator_v.3.1.exe e seleziona Esegui come amministratore.
+  
 
 ---
 
