@@ -245,7 +245,7 @@ LollozzOS Configurator was also created thanks to the integration of several ope
 ## 🔗 Community
 
 - Discord: https://discord.gg/gd5cT3Jw9M
-- TikTok: @lollozz_os
+- TikTok: https://www.tiktok.com/@lollozz_os?_r=1&_t=ZN-98MDYenbJBu
 - Instagram: https://www.instagram.com/lollozz_labs?igsh=dnRuYzB0dXQwNDZh&utm_source=qr
 
 - 
