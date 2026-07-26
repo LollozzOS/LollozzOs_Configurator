@@ -222,6 +222,6 @@ LollozzOS Configurator è stato realizzato anche grazie all'integrazione di alcu
 
 ## 🔗 Community
 
-- Discord: 
+- Discord: https://discord.gg/gd5cT3Jw9M
 - TikTok: @lollozz_os
-- Instagram: @lollozzos
+- Instagram: https://www.instagram.com/lollozz_labs?igsh=dnRuYzB0dXQwNDZh&utm_source=qr
