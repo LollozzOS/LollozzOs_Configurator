@@ -259,7 +259,7 @@ Questo script scarica automaticamente l'ultima versione, estrae i file nella car
 --------------------------------------------------------------------------------
 
 Metodo 2: Installazione Manuale
-1. Scarica l'archivio LollozzOS_Configurator_v.3.1.zip dalla sezione Assets in basso.
+1. Scarica l'archivio LollozzOS_Configurator_v.3.1.zip dalla sezione RELEASE in basso.
 2. Estrai il contenuto dello ZIP nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1.
 3. Apri la cartella, fai tasto destro su LollozzOS_Configurator_v.3.1.exe e seleziona Esegui come amministratore.
   
