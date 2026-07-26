@@ -266,9 +266,6 @@ Metodo 2: Installazione Manuale
 
 ---
 
-## 🌍 Website
-
-[Insert link to the official website here]
 
 ## 🔗 Community
 
