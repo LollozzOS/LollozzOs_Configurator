@@ -240,6 +240,12 @@ LollozzOS Configurator was also created thanks to the integration of several ope
 - Win11Debloat Raphire
 - DiscordDebloater insovs
 
+---
+
+##
+
+---
+
 ## 🌍 Website
 
 [Insert link to the official website here]
