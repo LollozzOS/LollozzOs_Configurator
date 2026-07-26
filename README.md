@@ -27,6 +27,8 @@ LollozzOS is protected by a proprietary licensing system tied to the hardware of
 
 **To request a license**: join the Discord channel and message me directly.
 
+- Discord: https://discord.gg/gd5cT3Jw9M
+
 ---
 
 ## ⚙️ Main Menu — Windows Optimizer Ultimate Edition
