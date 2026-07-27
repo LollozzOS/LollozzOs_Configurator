@@ -238,7 +238,7 @@ LollozzOS Configurator makes profound changes Registry, services, and system com
 LollozzOS Configurator was also created thanks to the integration of several open source projects available on GitHub, including:
 
 - Chris Titus Tech's Windows Utility
-- RemoveWindowsAI Zoocware
+- RemoveWindowsAI Zoicware
 - Microsoft Activation Script (MAS)
 - Win11Debloat Raphire
 - DiscordDebloater insovs
