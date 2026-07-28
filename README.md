@@ -16,6 +16,10 @@ The interface is clean and you can navigate using the on-screen numbers. Each se
 <img width="2560" height="1440" alt="Screenshot - 26_07_2026 , 19_22_45" src="https://github.com/user-attachments/assets/368c0175-73b6-4095-8060-e8efb8fd462b" />
 
 
+<img width="1172" height="839" alt="BANNER" src="https://github.com/user-attachments/assets/ece4928d-9aea-43fa-bb32-09bb9e796be8" />
+
+
+
 - CLI menu entirely in Italian, with dedicated ASCII art banners for each module and a differentiated ANSI color scheme (blue, green, red, yellow, purple) to quickly identify the section you're in.
 - Numbered menu navigation with input validation and error handling.
 
