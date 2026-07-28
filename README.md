@@ -28,7 +28,7 @@ The interface is clean and you can navigate using the on-screen numbers. Each se
 
 LollozzOS is protected by a proprietary licensing system tied to the hardware of the PC on which it is activated.
 
-**To request a license**: join the Discord channel and message me directly, SENZA NESSUN COSTO!.
+**To request a license**: join the Discord channel and message me directly, ITS FREE!.
 
 - Discord: https://discord.gg/gd5cT3Jw9M
 
