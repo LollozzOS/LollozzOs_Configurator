@@ -18,7 +18,8 @@ The interface is clean and you can navigate using the on-screen numbers. Each se
 <img width="1172" height="739" alt="Schermata 31-07-2026 10 40 38" src="https://github.com/user-attachments/assets/d7e8f1b2-27cd-45a9-9222-24828d110e78" />
 
 
-<img width="1172" height="839" alt="BANNER" src="https://github.com/user-attachments/assets/ece4928d-9aea-43fa-bb32-09bb9e796be8" />
+<img width="1172" height="839" alt="Schermata 31-07-2026 11 28 07" src="https://github.com/user-attachments/assets/22d8b7cf-b5da-4503-99f1-500a0e195d60" />
+
 
 
 
