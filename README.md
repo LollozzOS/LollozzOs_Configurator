@@ -260,7 +260,7 @@ Metodo 1: Installazione Automatica via PowerShell (Consigliato)
 
 
 ```powershell
-$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.3"; $zip = "$env:TEMP\LollozzOS.zip"; irm "[https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.3.zip](https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.3.zip)" -OutFile $zip; Expand-Archive -Path$zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse \vert{} Select-Object -First 1; if ($readme) { Start-Process $readme.FullName };$exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse \vert{} Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
+$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.3"; $zip = "$env:TEMP\LollozzOS.zip"; irm "https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.3.zip" -OutFile $zip; Expand-Archive -Path $zip -DestinationPath $dest -Force; $exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse | Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
 
 ```
 
