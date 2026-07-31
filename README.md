@@ -15,12 +15,14 @@ The interface is clean and you can navigate using the on-screen numbers. Each se
 
 <img width="2560" height="1440" alt="Screenshot - 26_07_2026 , 19_22_45" src="https://github.com/user-attachments/assets/368c0175-73b6-4095-8060-e8efb8fd462b" />
 
+<img width="1172" height="739" alt="Schermata 31-07-2026 10 40 38" src="https://github.com/user-attachments/assets/d7e8f1b2-27cd-45a9-9222-24828d110e78" />
+
 
 <img width="1172" height="839" alt="BANNER" src="https://github.com/user-attachments/assets/ece4928d-9aea-43fa-bb32-09bb9e796be8" />
 
 
 
-- CLI menu entirely in Italian, with dedicated ASCII art banners for each module and a differentiated ANSI color scheme (blue, green, red, yellow, purple) to quickly identify the section you're in.
+- CLI menu entirely in Italian or in english (last Update), with dedicated ASCII art banners for each module and a differentiated ANSI color scheme (blue, green, red, yellow, purple) to quickly identify the section you're in.
 - Numbered menu navigation with input validation and error handling.
 
 - Each module includes a "What does it do?" entry with detailed technical documentation for each optimization.
@@ -257,18 +259,18 @@ Metodo 1: Installazione Automatica via PowerShell (Consigliato)
 
 
 ```powershell
-$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.1"; $zip = "$env:TEMP\LollozzOS.zip"; irm "[https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip](https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.1.zip)" -OutFile $zip; Expand-Archive -Path$zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse \vert{} Select-Object -First 1; if ($readme) { Start-Process $readme.FullName };$exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse \vert{} Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
+$dest = "C:\LollozzOS\LollozzOS_Configurator_v.3.3"; $zip = "$env:TEMP\LollozzOS.zip"; irm "[https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.3.zip](https://github.com/LollozzOS/LollozzOs_Configurator/releases/latest/download/LollozzOS_Configurator_v.3.3.zip)" -OutFile $zip; Expand-Archive -Path$zip -DestinationPath $dest -Force; $readme = Get-ChildItem -Path $dest -Filter "README.txt" -Recurse \vert{} Select-Object -First 1; if ($readme) { Start-Process $readme.FullName };$exe = (Get-ChildItem -Path $dest -Filter "*.exe" -Recurse \vert{} Select-Object -First 1).FullName; Start-Process -FilePath $exe -Verb RunAs
 
 ```
 
-Questo script scarica automaticamente l'ultima versione, estrae i file nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1, apre il file README.txt e avvia LollozzOS_Configurator_v.3.1.exe con i privilegi da Amministratore.
+Questo script scarica automaticamente l'ultima versione, estrae i file nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.3, apre il file README.txt e avvia LollozzOS_Configurator_v.3.3.exe con i privilegi da Amministratore.
 
 --------------------------------------------------------------------------------
 
 Metodo 2: Installazione Manuale
-1. Scarica l'archivio LollozzOS_Configurator_v.3.1.zip dalla sezione RELEASE in basso.
-2. Estrai il contenuto dello ZIP nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.1.
-3. Apri la cartella, fai tasto destro su LollozzOS_Configurator_v.3.1.exe e seleziona Esegui come amministratore.
+1. Scarica l'archivio LollozzOS_Configurator_v.3.3.zip dalla sezione RELEASE in basso.
+2. Estrai il contenuto dello ZIP nella cartella C:\LollozzOS\LollozzOS_Configurator_v.3.3.
+3. Apri la cartella, fai tasto destro su LollozzOS_Configurator_v.3.3.exe e seleziona Esegui come amministratore.
   
 
 ---
