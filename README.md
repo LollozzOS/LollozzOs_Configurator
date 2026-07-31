@@ -31,15 +31,7 @@ The interface is clean and you can navigate using the on-screen numbers. Each se
 
 ---
 
-## 🔐 License
 
-LollozzOS is protected by a proprietary licensing system tied to the hardware of the PC on which it is activated.
-
-**To request a license**: join the Discord channel and message me directly, ITS FREE!.
-
-- Discord: https://discord.gg/gd5cT3Jw9M
-
----
 
 ## ⚙️ Main Menu — Windows Optimizer Ultimate Edition
 
@@ -249,6 +241,8 @@ LollozzOS Configurator was also created thanks to the integration of several ope
 - Microsoft Activation Script (MAS)
 - Win11Debloat Raphire
 - DiscordDebloater insovs
+- OneClick by Quaked
+- other scripts present in github
 
 ---
 
